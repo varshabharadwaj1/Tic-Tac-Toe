@@ -6,12 +6,12 @@ int check_win(char a[3][3]);
 int main()
 {
     int i,m=12,n=12,x=13,y=13,k,h,win=0,turn=0,j,pos1,pos2;
-	char a[3][3]={},board[3][3]={'0','1','2','3','4','5','6','7','8'};
-	printf("Player 1:X\n");
-	printf("Player 2:O\n");
-	printf("Positions in board are\n");
+    char a[3][3]={},board[3][3]={'0','1','2','3','4','5','6','7','8'};
+    printf("Player 1:X\n");
+    printf("Player 2:O\n");
+    printf("Positions in board are\n");
     print_board(board);
-	printf("\n");
+    printf("\n");
 		
 	for(i=2;i<12;i++)
 	{
